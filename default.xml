@@ -23,7 +23,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
-  <project path="bootable/recovery" name="voku/android_bootable_recovery" remote="github"/>
+  <project path="bootable/recovery" name="tom3q/android_bootable_recovery" remote="github"/>
 
   <project path="dalvik" name="voku/android_dalvik" remote="github"/>
   <project path="development" name="voku/android_development" remote="github"/>
@@ -153,10 +153,10 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
   <project path="packages/apps/Camera" name="voku/android_packages_apps_Camera" remote="github"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller"/>
-  <project path="packages/apps/Contacts" name="voku/android_packages_apps_Contacts" remote="github"/>
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github"/>
   <project path="packages/apps/DeskClock" name="voku/android_packages_apps_DeskClock" remote="github"/>
   <project path="packages/apps/DSPManager" name="voku/android_packages_apps_DSPManager" remote="github"/>
-  <project path="packages/apps/Email" name="voku/android_packages_apps_Email" remote="github" revision="gingerbread"/>
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="gingerbread"/>
   <project path="packages/apps/FileManager" name="voku/android_packages_apps_FileManager" remote="github" revision="master"/>
   <project path="packages/apps/FM" name="voku/android_packages_apps_FM" remote="github"/>
   <project path="packages/apps/Gallery3D" name="voku/android_packages_apps_Gallery3D" remote="github" revision="gingerbread"/>

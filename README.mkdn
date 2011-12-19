@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the cadavre's trees, use a command like this:
 
-    repo init -u git://github.com/voku/sm_android.git -b froyo
+    repo init -u git://github.com/voyteckst/cm_android.git -b froyo
 
 Then to sync up:
 
@@ -19,16 +19,16 @@ Then to sync up:
 Prepare for build:
 
     . build/envsetup.sh
-    lunch spica-eng
-    vendor/spica/get-google-files -v mdpi
+    lunch OmniaII
+    vendor/OmniaII/get-google-files -v hdpi
 
 Optionally for gapps,3D libs from Intercept, live wallpapers and development (gcc, uclibc, etc):
 
-    export SPICA_WITH_GOOGLE=1
-    export SPICA_WITH_3D=1
-    export SPICA_WITH_LIVEWALLPAPERS=1
-    export SPICA_WITH_DEV=0
+	export OMNIAII_WITH_GOOGLE=1
+	export OMNIAII_WITH_3D=1
+	export OMNIAII_WITH_LIVEWALLPAPERS=1
+	export OMNIAII_WITH_DEV=0
 
 Build:
 
-    mka otapackage -j4
+    make -j4
