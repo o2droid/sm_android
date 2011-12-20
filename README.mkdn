@@ -20,7 +20,10 @@ Prepare for build:
 
     . build/envsetup.sh
     lunch OmniaII
+
+Optionally download Google Apps:
     vendor/OmniaII/get-google-files -v hdpi
+After that You have to replace GoogleServicesFramework.apk (WiFi mac address patched).
 
 Optionally for gapps,3D libs from Intercept, live wallpapers and development (gcc, uclibc, etc):
 
