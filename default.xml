@@ -28,7 +28,7 @@
   <project path="dalvik" name="voku/android_dalvik" remote="github"/>
   <project path="development" name="voku/android_development" remote="github"/>
 
-  <project path="device/samsung/spica" name="voku/sm_android_device_samsung_spica" remote="github"/>
+  <project path="device/samsung/OmniaII" name="o2droid/android_device_samsung_omnia2" remote="github"/>
 
   <project path="external/alsa-lib" name="voku/external-alsa-lib" remote="github" revision="master"/>
   <project path="external/alsa-utils" name="voku/external-alsa-utils" remote="github" revision="master"/>
