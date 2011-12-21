@@ -209,6 +209,6 @@
   <project path="system/vold" name="voku/cm_android_system_vold" remote="github"/>
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
 
-  <project path="vendor/spica" name="voku/sm_android_vendor_spica" remote="github"/>
+  <project path="vendor/OmniaII" name="o2droid/android_vendor_omnia2" remote="github"/>
 
 </manifest>
