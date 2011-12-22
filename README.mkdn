@@ -23,14 +23,14 @@ Prepare for build:
 
 Optionally download Google Apps:
     vendor/OmniaII/get-google-files -v hdpi
-After that You have to replace GoogleServicesFramework.apk (WiFi mac address patched).
+    rename GoogleServicesFramework.apk.fixed to GoogleServicesFramework.apk (WiFi mac address fix for CheckIn).
 
 Optionally for gapps,3D libs from Intercept, live wallpapers and development (gcc, uclibc, etc):
 
-	export OMNIAII_WITH_GOOGLE=1
-	export OMNIAII_WITH_3D=1
-	export OMNIAII_WITH_LIVEWALLPAPERS=1
-	export OMNIAII_WITH_DEV=0
+    export OMNIAII_WITH_GOOGLE=1
+    export OMNIAII_WITH_3D=1
+    export OMNIAII_WITH_LIVEWALLPAPERS=1
+    export OMNIAII_WITH_DEV=0
 
 Build:
 
