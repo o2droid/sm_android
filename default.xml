@@ -127,7 +127,7 @@
   <project path="external/yaffs2" name="voku/android_external_yaffs2" remote="github"/>
   <project path="external/zlib" name="platform/external/zlib"/>
 
-  <project path="frameworks/base" name="voku/sm_android_frameworks_base" remote="github"/>
+  <project path="frameworks/base" name="o2droid/sm_android_frameworks_base" remote="github"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="gingerbread"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
 
