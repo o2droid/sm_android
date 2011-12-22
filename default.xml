@@ -25,7 +25,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
   <project path="bootable/recovery" name="tom3q/android_bootable_recovery" remote="github"/>
 
-  <project path="dalvik" name="voku/android_dalvik" remote="github"/>
+  <project path="dalvik" name="o2droid/android_dalvik" remote="github"/>
   <project path="development" name="voku/android_development" remote="github"/>
 
   <project path="device/samsung/OmniaII" name="o2droid/android_device_samsung_omnia2" remote="github"/>
