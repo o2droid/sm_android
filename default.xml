@@ -15,7 +15,7 @@
   <default revision="froyo"
            remote="aosp" />
 
-  <project path="build" name="o2droid/sm_android_build" remote="github">
+  <project path="build" name="o2droid/sm_android_build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
@@ -28,7 +28,7 @@
   <project path="dalvik" name="o2droid/android_dalvik" remote="github"/>
   <project path="development" name="o2droid/android_development" remote="github"/>
 
-  <project path="device/samsung/OmniaII" name="o2droid/android_device_samsung_omnia2" remote="github"/>
+  <project path="device/samsung/OmniaII" name="o2droid/android_device_samsung_omnia2" remote="github" revision="master"/>
 
   <project path="external/alsa-lib" name="voku/external-alsa-lib" remote="github" revision="master"/>
   <project path="external/alsa-utils" name="voku/external-alsa-utils" remote="github" revision="master"/>
@@ -134,7 +134,7 @@
   <project path="hardware/alsa_sound" name="voku/android_hardware_alsa_sound" remote="github" revision="gingerbread"/>
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan"/>
   <project path="hardware/libhardware" name="voku/android_hardware_libhardware" remote="github"/>
-  <project path="hardware/libhardware_legacy" name="o2droid/android_hardware_libhardware_legacy" remote="github"/>
+  <project path="hardware/libhardware_legacy" name="o2droid/android_hardware_libhardware_legacy" remote="github" revision="master"/>
   <project path="hardware/msm7k" name="voku/android_hardware_msm7k" remote="github"/>
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps"/>
   <project path="hardware/qcom/mm-core" name="voku/android_hardware_qcom_mm-core" remote="github"/>
@@ -208,6 +208,6 @@
   <project path="system/vold" name="voku/cm_android_system_vold" remote="github"/>
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
 
-  <project path="vendor/OmniaII" name="o2droid/android_vendor_omnia2" remote="github"/>
+  <project path="vendor/OmniaII" name="o2droid/android_vendor_omnia2" remote="github" revision="master"/>
 
 </manifest>
