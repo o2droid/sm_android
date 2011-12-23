@@ -15,7 +15,7 @@
   <default revision="froyo"
            remote="aosp" />
 
-  <project path="build" name="o2droid/sm_android_build" remote="github" revision="master">
+  <project path="build" name="o2droid/sm_android_build" remote="github" revision="master"/>
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
