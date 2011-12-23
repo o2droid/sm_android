@@ -21,7 +21,7 @@ Prepare for build:
     . build/envsetup.sh
     lunch OmniaII
 
-Optionally download Google Apps:
+Optionally download Google Apps (need to do this only once):
     vendor/OmniaII/get-google-files -v hdpi
     rename GoogleServicesFramework.apk.fixed to GoogleServicesFramework.apk (WiFi mac address fix for CheckIn).
 
