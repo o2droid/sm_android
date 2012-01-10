@@ -30,8 +30,8 @@
 
   <project path="device/samsung/OmniaII" name="o2droid/android_device_samsung_omnia2" remote="github" revision="master"/>
 
-  <project path="external/alsa-lib" name="voku/external-alsa-lib" remote="github" revision="master"/>
-  <project path="external/alsa-utils" name="voku/external-alsa-utils" remote="github" revision="master"/>
+  <project path="external/alsa-lib" name="o2droid/external-alsa-lib" remote="github" revision="master"/>
+  <project path="external/alsa-utils" name="o2droid/external-alsa-utils" remote="github" revision="master"/>
   <project path="external/apache-http" name="platform/external/apache-http"/>
   <project path="external/astl" name="platform/external/astl"/>
   <project path="external/bash" name="voku/android_external_bash" remote="github" revision="bash-4.1-froyo"/>
@@ -201,7 +201,7 @@
   <!-- <project path="sdk" name="platform/sdk" revision="tools_r7"/> -->
   <project path="sdk" name="platform/sdk" revision="bf2cc1ba6983e23f14df45c20ee08f2d4e2b2fd3"/> 
   <project path="system/bluetooth" name="voku/sm_android_system_bluetooth" remote="github"/>
-  <project path="system/core" name="voku/android_system_core" remote="github"/>
+  <project path="system/core" name="o2droid/android_system_core" remote="github"/>
   <project path="system/extras" name="voku/android_system_extras" remote="github"/>
   <project path="system/extras/su" name="voku/su-binary" remote="github" revision="master"/>
   <project path="system/netd" name="voku/cm_android_system_netd" remote="github"/>
