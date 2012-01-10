@@ -8,7 +8,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > /usr/bin/repo
     chmod +x /usr/bin/repo
 
-To initialize your local repository using the cadavre's trees, use a command like this:
+To initialize your local repository use a command like this:
 
     repo init -u git://github.com/o2droid/sm_android.git -b froyo
 
